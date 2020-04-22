@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,8 @@
 		3C0287B8245018A800C27FAD /* LeetCodeForMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0287B7245018A800C27FAD /* LeetCodeForMacTests.swift */; };
 		3C0287C3245018A800C27FAD /* LeetCodeForMacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0287C2245018A800C27FAD /* LeetCodeForMacUITests.swift */; };
 		3C0287D1245019DF00C27FAD /* Solution59.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0287D0245019DF00C27FAD /* Solution59.swift */; };
+		3C1A86F42450237F00C3A426 /* PreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1A86F32450237F00C3A426 /* PreviewController.swift */; };
+		3C1A86F62450329F00C3A426 /* Solution199.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1A86F52450329F00C3A426 /* Solution199.swift */; };
 		82CB6CE4DA52C1BCF97615E4 /* Pods_LeetCodeForMacTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBB0F93DF389CDA1DFCDF98 /* Pods_LeetCodeForMacTests.framework */; };
 		A8B0EB58DF62BA09B1FB5D93 /* Pods_LeetCodeForMac_LeetCodeForMacUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC173A5958AF009516FFD06F /* Pods_LeetCodeForMac_LeetCodeForMacUITests.framework */; };
 		D12D4F8DF047D6E265DAABE3 /* Pods_LeetCodeForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B0DE9F8D7A378337319E70 /* Pods_LeetCodeForMac.framework */; };
@@ -52,6 +54,8 @@
 		3C0287C2245018A800C27FAD /* LeetCodeForMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeForMacUITests.swift; sourceTree = "<group>"; };
 		3C0287C4245018A800C27FAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C0287D0245019DF00C27FAD /* Solution59.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution59.swift; sourceTree = "<group>"; };
+		3C1A86F32450237F00C3A426 /* PreviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewController.swift; sourceTree = "<group>"; };
+		3C1A86F52450329F00C3A426 /* Solution199.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution199.swift; sourceTree = "<group>"; };
 		59D77DACECBB693A91E4C257 /* Pods-LeetCodeForMacTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeetCodeForMacTests.debug.xcconfig"; path = "Target Support Files/Pods-LeetCodeForMacTests/Pods-LeetCodeForMacTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6AD725E3B86D90A491509EC2 /* Pods-LeetCodeForMac-LeetCodeForMacUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeetCodeForMac-LeetCodeForMacUITests.release.xcconfig"; path = "Target Support Files/Pods-LeetCodeForMac-LeetCodeForMacUITests/Pods-LeetCodeForMac-LeetCodeForMacUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A14C99948B1908C0F5C61921 /* Pods-LeetCodeForMac-LeetCodeForMacUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeetCodeForMac-LeetCodeForMacUITests.debug.xcconfig"; path = "Target Support Files/Pods-LeetCodeForMac-LeetCodeForMacUITests/Pods-LeetCodeForMac-LeetCodeForMacUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -100,7 +104,6 @@
 				59D77DACECBB693A91E4C257 /* Pods-LeetCodeForMacTests.debug.xcconfig */,
 				F2C1FF5E187A4F9816B2D17D /* Pods-LeetCodeForMacTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,6 +134,7 @@
 			children = (
 				3C0287A4245018A700C27FAD /* AppDelegate.swift */,
 				3C0287A6245018A700C27FAD /* HomeController.swift */,
+				3C1A86F32450237F00C3A426 /* PreviewController.swift */,
 				3C0287D2245019E900C27FAD /* Solution */,
 				3C0287A8245018A800C27FAD /* Assets.xcassets */,
 				3C0287AA245018A800C27FAD /* Main.storyboard */,
@@ -162,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				3C0287D0245019DF00C27FAD /* Solution59.swift */,
+				3C1A86F52450329F00C3A426 /* Solution199.swift */,
 			);
 			path = Solution;
 			sourceTree = "<group>";
@@ -414,7 +419,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C1A86F42450237F00C3A426 /* PreviewController.swift in Sources */,
 				3C0287A7245018A700C27FAD /* HomeController.swift in Sources */,
+				3C1A86F62450329F00C3A426 /* Solution199.swift in Sources */,
 				3C0287A5245018A700C27FAD /* AppDelegate.swift in Sources */,
 				3C0287D1245019DF00C27FAD /* Solution59.swift in Sources */,
 			);

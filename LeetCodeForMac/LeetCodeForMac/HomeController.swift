@@ -10,6 +10,9 @@ import Cocoa
 
 class HomeController: NSViewController {
 
+    @IBOutlet weak var sourceList: NSScrollView!
+    
+     
     override func viewDidLoad() {
         super.viewDidLoad()
 
