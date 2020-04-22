@@ -16,6 +16,10 @@
 		3C0287D1245019DF00C27FAD /* Solution59.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0287D0245019DF00C27FAD /* Solution59.swift */; };
 		3C1A86F42450237F00C3A426 /* PreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1A86F32450237F00C3A426 /* PreviewController.swift */; };
 		3C1A86F62450329F00C3A426 /* Solution199.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1A86F52450329F00C3A426 /* Solution199.swift */; };
+		41FFAB192450A5880003AC4F /* Solution26.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FFAB182450A5880003AC4F /* Solution26.swift */; };
+		41FFAB1B2450A7D80003AC4F /* Solution122.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FFAB1A2450A7D80003AC4F /* Solution122.swift */; };
+		41FFAB1D2450AA6E0003AC4F /* Solution121.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FFAB1C2450AA6E0003AC4F /* Solution121.swift */; };
+		41FFAB1F2450AAD30003AC4F /* Solution123.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FFAB1E2450AAD30003AC4F /* Solution123.swift */; };
 		82CB6CE4DA52C1BCF97615E4 /* Pods_LeetCodeForMacTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBB0F93DF389CDA1DFCDF98 /* Pods_LeetCodeForMacTests.framework */; };
 		A8B0EB58DF62BA09B1FB5D93 /* Pods_LeetCodeForMac_LeetCodeForMacUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC173A5958AF009516FFD06F /* Pods_LeetCodeForMac_LeetCodeForMacUITests.framework */; };
 		D12D4F8DF047D6E265DAABE3 /* Pods_LeetCodeForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B0DE9F8D7A378337319E70 /* Pods_LeetCodeForMac.framework */; };
@@ -56,6 +60,10 @@
 		3C0287D0245019DF00C27FAD /* Solution59.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution59.swift; sourceTree = "<group>"; };
 		3C1A86F32450237F00C3A426 /* PreviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewController.swift; sourceTree = "<group>"; };
 		3C1A86F52450329F00C3A426 /* Solution199.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution199.swift; sourceTree = "<group>"; };
+		41FFAB182450A5880003AC4F /* Solution26.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution26.swift; sourceTree = "<group>"; };
+		41FFAB1A2450A7D80003AC4F /* Solution122.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution122.swift; sourceTree = "<group>"; };
+		41FFAB1C2450AA6E0003AC4F /* Solution121.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution121.swift; sourceTree = "<group>"; };
+		41FFAB1E2450AAD30003AC4F /* Solution123.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution123.swift; sourceTree = "<group>"; };
 		59D77DACECBB693A91E4C257 /* Pods-LeetCodeForMacTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeetCodeForMacTests.debug.xcconfig"; path = "Target Support Files/Pods-LeetCodeForMacTests/Pods-LeetCodeForMacTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6AD725E3B86D90A491509EC2 /* Pods-LeetCodeForMac-LeetCodeForMacUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeetCodeForMac-LeetCodeForMacUITests.release.xcconfig"; path = "Target Support Files/Pods-LeetCodeForMac-LeetCodeForMacUITests/Pods-LeetCodeForMac-LeetCodeForMacUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A14C99948B1908C0F5C61921 /* Pods-LeetCodeForMac-LeetCodeForMacUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeetCodeForMac-LeetCodeForMacUITests.debug.xcconfig"; path = "Target Support Files/Pods-LeetCodeForMac-LeetCodeForMacUITests/Pods-LeetCodeForMac-LeetCodeForMacUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -167,6 +175,10 @@
 			children = (
 				3C0287D0245019DF00C27FAD /* Solution59.swift */,
 				3C1A86F52450329F00C3A426 /* Solution199.swift */,
+				41FFAB182450A5880003AC4F /* Solution26.swift */,
+				41FFAB1A2450A7D80003AC4F /* Solution122.swift */,
+				41FFAB1C2450AA6E0003AC4F /* Solution121.swift */,
+				41FFAB1E2450AAD30003AC4F /* Solution123.swift */,
 			);
 			path = Solution;
 			sourceTree = "<group>";
@@ -422,6 +434,10 @@
 				3C1A86F42450237F00C3A426 /* PreviewController.swift in Sources */,
 				3C0287A7245018A700C27FAD /* HomeController.swift in Sources */,
 				3C1A86F62450329F00C3A426 /* Solution199.swift in Sources */,
+				41FFAB192450A5880003AC4F /* Solution26.swift in Sources */,
+				41FFAB1B2450A7D80003AC4F /* Solution122.swift in Sources */,
+				41FFAB1D2450AA6E0003AC4F /* Solution121.swift in Sources */,
+				41FFAB1F2450AAD30003AC4F /* Solution123.swift in Sources */,
 				3C0287A5245018A700C27FAD /* AppDelegate.swift in Sources */,
 				3C0287D1245019DF00C27FAD /* Solution59.swift in Sources */,
 			);
