@@ -33,8 +33,9 @@ class LeetCodeForMacTests: XCTestCase {
     }
 
     func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let arr1: [String] = ["1", "", "1", "2"]
+        let res = arr1.joined(separator: "|")  // 1||1|2
+        print("Res = \(res)")
     }
 
     func testPerformanceExample() {
