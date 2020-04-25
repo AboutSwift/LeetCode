@@ -20,6 +20,13 @@ class LeetCodeForMacTests: XCTestCase {
         let result = Solution59().generateMatrix(5)
         print("result = \(result)")
     }
+    
+    func test695() {
+        let grid = [[1,1,0,0,0],[1,1,0,0,0],[0,0,0,1,1],[0,0,0,1,1]]
+        let max = Solution695().maxAreaOfIsland(grid)
+        
+        print("max = \(max)")
+    }
 
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
