@@ -37,6 +37,11 @@ class LeetCodeForMacTests: XCTestCase {
         let res = arr1.joined(separator: "|")  // 1||1|2
         print("Res = \(res)")
     }
+    
+    func test5() {
+        let res = Solution5().longestPalindrome("aba")
+        print("Res = \(res)")
+    }
 
     func testPerformanceExample() {
         // This is an example of a performance test case.
