@@ -21,6 +21,8 @@
 		3CBB57EF2456D1DD009AC9E5 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBB57EE2456D1DD009AC9E5 /* ListNode.swift */; };
 		41681FC42455E880005224C0 /* Solution5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41681FC32455E880005224C0 /* Solution5.swift */; };
 		41681FC62455F07E005224C0 /* Solution9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41681FC52455F07E005224C0 /* Solution9.swift */; };
+		41681FC824588DAF005224C0 /* Solution14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41681FC724588DAF005224C0 /* Solution14.swift */; };
+		418A0CB824589D68001B3622 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418A0CB724589D68001B3622 /* Extensions.swift */; };
 		41DC40BB2453E51D003D318D /* Solution409.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DC40BA2453E51D003D318D /* Solution409.swift */; };
 		41DC40BD2453E9B0003D318D /* Solution543.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DC40BC2453E9B0003D318D /* Solution543.swift */; };
 		41DC40BF2453E9EB003D318D /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DC40BE2453E9EB003D318D /* TreeNode.swift */; };
@@ -78,6 +80,8 @@
 		3CBB57EE2456D1DD009AC9E5 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		41681FC32455E880005224C0 /* Solution5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution5.swift; sourceTree = "<group>"; };
 		41681FC52455F07E005224C0 /* Solution9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution9.swift; sourceTree = "<group>"; };
+		41681FC724588DAF005224C0 /* Solution14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution14.swift; sourceTree = "<group>"; };
+		418A0CB724589D68001B3622 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		41DC40BA2453E51D003D318D /* Solution409.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution409.swift; sourceTree = "<group>"; };
 		41DC40BC2453E9B0003D318D /* Solution543.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution543.swift; sourceTree = "<group>"; };
 		41DC40BE2453E9EB003D318D /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
@@ -171,6 +175,7 @@
 				3C1A86F32450237F00C3A426 /* PreviewController.swift */,
 				41DC40BE2453E9EB003D318D /* TreeNode.swift */,
 				3CBB57EE2456D1DD009AC9E5 /* ListNode.swift */,
+				418A0CB724589D68001B3622 /* Extensions.swift */,
 				3C0287D2245019E900C27FAD /* Solution */,
 				3C0287A8245018A800C27FAD /* Assets.xcassets */,
 				3C0287AA245018A800C27FAD /* Main.storyboard */,
@@ -218,6 +223,7 @@
 				41681FC52455F07E005224C0 /* Solution9.swift */,
 				3CBB57EC2456D1B5009AC9E5 /* Solution237.swift */,
 				3CA0C2002456F267005DB2F1 /* Solution206.swift */,
+				41681FC724588DAF005224C0 /* Solution14.swift */,
 			);
 			path = Solution;
 			sourceTree = "<group>";
@@ -479,6 +485,7 @@
 				3C1A86F62450329F00C3A426 /* Solution199.swift in Sources */,
 				41FFAB192450A5880003AC4F /* Solution26.swift in Sources */,
 				41FFAB1B2450A7D80003AC4F /* Solution122.swift in Sources */,
+				41681FC824588DAF005224C0 /* Solution14.swift in Sources */,
 				3CA0C2012456F267005DB2F1 /* Solution206.swift in Sources */,
 				41FFAB1D2450AA6E0003AC4F /* Solution121.swift in Sources */,
 				41DC430724540A12003D318D /* Solution233.swift in Sources */,
@@ -488,6 +495,7 @@
 				3CBB57EF2456D1DD009AC9E5 /* ListNode.swift in Sources */,
 				41DC40BB2453E51D003D318D /* Solution409.swift in Sources */,
 				41DC40BD2453E9B0003D318D /* Solution543.swift in Sources */,
+				418A0CB824589D68001B3622 /* Extensions.swift in Sources */,
 				41DC430B245489B1003D318D /* Solution557.swift in Sources */,
 				41DC430924547C58003D318D /* Solution695.swift in Sources */,
 				3C0287D1245019DF00C27FAD /* Solution59.swift in Sources */,

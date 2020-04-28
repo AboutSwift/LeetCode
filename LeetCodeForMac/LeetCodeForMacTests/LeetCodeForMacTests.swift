@@ -42,6 +42,11 @@ class LeetCodeForMacTests: XCTestCase {
         let res = Solution5().longestPalindrome("aba")
         print("Res = \(res)")
     }
+    
+    func testSolution14() {
+        let res = Solution14().longestCommonPrefix(["flower","flow","flight"])
+        print("匹配结果：\(res)")
+    }
 
     func testPerformanceExample() {
         // This is an example of a performance test case.
