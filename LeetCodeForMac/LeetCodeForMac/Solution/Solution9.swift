@@ -21,6 +21,6 @@ class Solution9 {
             value = newX % 10 + value * 10
             newX /= 10
         }
-        return x == value || x == value/10
+        return x == value
     }
 }

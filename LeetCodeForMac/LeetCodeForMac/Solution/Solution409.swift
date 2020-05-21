@@ -13,8 +13,8 @@ import Foundation
 
 class Solution409 {
     func longestPalindrome(_ s: String) -> Int {
-        guard s.count > 0 else { return 0}
-        
+        guard s.count > 0 else { return 0 }
+
         var chars = [Character]()
         for c in s {
             if let index = chars.firstIndex(of: c) {
@@ -22,9 +22,9 @@ class Solution409 {
             }else {
                 chars.append(c)
             }
+//            print("s = \(chars)")
         }
         
-        let count = s.count - chars.count
-        return chars.isEmpty ? count: count + 1 // 奇数 + 1
+        return chars.isEmpty ? s.count: (s.count - chars.count) + 1
     }
 }

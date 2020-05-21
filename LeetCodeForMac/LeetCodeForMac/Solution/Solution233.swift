@@ -22,9 +22,9 @@ class Solution233 {
         let resB = (G-E) * (H-F)
         
         if x1<x2 && y1<y2 {
-            return  resA + resB - (x2-x1)*(y2-y1)
+            return resA + resB - (x2-x1)*(y2-y1)
         }else {
-            return  resA + resB
+            return resA + resB
         }
     }
 }

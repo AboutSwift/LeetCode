@@ -25,7 +25,7 @@ class Solution7 {
             num /= 10
         }
         
-        return result * (x >= 0 ? 1:-1)
+        return result * (x > 0 ? 1:-1)
     }
     
 }

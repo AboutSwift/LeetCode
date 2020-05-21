@@ -13,23 +13,16 @@ import Foundation
 
 class Solution14 {
     func longestCommonPrefix(_ strs: [String]) -> String {
-        guard strs.count != 0 else {
-            return ""
-        }
-        guard strs.count != 1 else {
-            return strs[0]
-        }
         
+        guard strs.count > 1 else { return strs.first ?? "" }
         var result = strs[0]
         var isRun = true
         
         while isRun {
-            for (idx,value) in strs.enumerated() {
-                if idx == 0 { continue }
-                
-                if value.hasPrefix(result) {
+            for i in 1..<strs.count {
+                if strs[i].hasPrefix(result) {
                     isRun = false
-                }else {
+                } else {
                     result = String(result.prefix(result.count - 1))
                     isRun = true
                     break
